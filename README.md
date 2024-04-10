@@ -20,33 +20,23 @@ At the end of the project, following topics are to be covered;
     |---- public
             |---- index.html
     |---- src
+            |---- assets
+                    |---- nba-logo.png
+                    |---- nba.jpg
+                    |---- project_view.png
             |---- compenents
-                    |---- header
-                            |---- Header.jsx
-                            |---- Header.scss
-                    |---- helpers
-                            |---- data.js
-                            |---- logo.png
-                    |---- main
-                            |---- Card.jsx
-                            |---- Main.jsx
-                            |---- Main.scss
-                    |---- navbar
-                            |---- Navbar.jsx
-                            |---- Navbar.scss
-                    |---- scss
-                            |---- _mixins.scss
-                            |---- _reset.scss
-                            |---- _variables.scss
+                    |---- ContainerCard.jsx
+                    |---- Header.jsx
+                    |---- PlayerCard.jsx
+            |---- helpers
+                    |---- data.js
             |---- App.js
-            |---- App.scss
-            |---- deploy_info.png
+            |---- index.css                                
             |---- index.js                                   
-            |---- project_view.png
     |---- .gitignore
-    |---- README.md
     |---- package-lock.json
     |---- package.json
+    |---- README.md
     |---- yarn.lock
 ```
 
