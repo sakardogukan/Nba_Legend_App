@@ -1,4 +1,4 @@
-## Horoscope Page Project
+## NBA Legend App Project
 
 ## Description
 This project is a react app
