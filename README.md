@@ -42,6 +42,6 @@ At the end of the project, following topics are to be covered;
 
 ### Project View Images:
 
-![images](./src/project_view.png)
+![images](./src/assets/project_view.png)
 
 > Designed By DOGUKAN © Apr. 2024
