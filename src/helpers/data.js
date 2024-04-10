@@ -119,4 +119,4 @@ export const data = [
       "11 All Star",
     ],
   },
-];
+]
