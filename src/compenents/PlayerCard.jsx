@@ -7,7 +7,11 @@ const PlayerCard = ({ name, img, statistics }) => {
   const [showImage, setShowImage] = useState(true)
   return (
     <Col>
-      <Card onClick={() => setShowImage(!showImage)} className="player-card" role="button">
+      <Card
+        onClick={() => setShowImage(!showImage)}
+        className="player-card"
+        role="button"
+      >
         {showImage ? (
           <Card.Img
             variant="top"
