@@ -9,19 +9,19 @@ import PlayerCard from "./PlayerCard"
 const ContainerCard = () => {
   const [search, setSearch] = useState("")
 
-  console.log(data)
+  // console.log(data)
 
   const handleChange = (e) => {
-    console.log(e.target.value)
-    setSearch(e.target.value)
-    console.log(search)
+    // console.log(e.target.value)
+    setSearch(e.target.value) // setter metotları async çalışır
+    // console.log(search)
   }
   // console.log(search)
 
   const filterData = data.filter((item) =>
     item.name.toLowerCase().includes(search.trim().toLowerCase())
   )
-  console.log(filterData)
+  // console.log(filterData)
 
   return (
     <>
